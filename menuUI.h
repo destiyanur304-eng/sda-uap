@@ -1,14 +1,12 @@
-// File: MenuUI.h
 #ifndef MENUUI_H
 #define MENUUI_H
 #include <iostream>
-#include "Database.h" // Memanggil database milik Faiz
+#include "Database.h" 
 
 using namespace std;
 
 class MenuAplikasi {
 private:
-    // Inisialisasi Database
     DatabasePasien db;
 
 public:
