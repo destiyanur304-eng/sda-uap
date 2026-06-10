@@ -1,15 +1,13 @@
-// File: Database.h
 #ifndef DATABASE_H
 #define DATABASE_H
 #include <iostream>
 #include <string>
-#include "Monitoring.h" // Menghubungkan file Farhat
+#include "Monitoring.h" 
 
 using namespace std;
 
 class DatabasePasien {
 public:
-    // Kamu mengelola Array of Objects di sini
     Monitoring daftarPasien[100];
     int jumlahPasien = 0;
 
