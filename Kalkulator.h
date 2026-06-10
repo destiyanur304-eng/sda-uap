@@ -1,8 +1,7 @@
-// File: Kalkulator.h
 #ifndef KALKULATOR_H
 #define KALKULATOR_H
 #include <iostream>
-#include "DataModel.h" // Menghubungkan file Destiya
+#include "DataModel.h" 
 
 using namespace std;
 
